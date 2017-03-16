@@ -1,0 +1,98 @@
+@-webkit-keyframes mask-move {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(350px);
+            transform: translateX(350px);
+  }
+}
+@keyframes mask-move {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(350px);
+            transform: translateX(350px);
+  }
+}
+@-webkit-keyframes mask-inner-move {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-350px);
+            transform: translateX(-350px);
+  }
+}
+@keyframes mask-inner-move {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-350px);
+            transform: translateX(-350px);
+  }
+}
+
+.focus{
+  padding: 0;
+  width: 450px;
+  text-transform: uppercase;
+  height: auto !important;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.focus:before {
+  padding: 0px;
+  content: 'QIWANG';
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  color: #FFFFFF;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0px;
+  width: 450px;
+}
+
+.focus:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: calc(100% + 8px);
+  top: 0px;
+  left: 16.6px;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #FFFFFF;
+  -webkit-animation: mask-move 2s linear infinite alternate;
+          animation: mask-move 2s linear infinite alternate;
+}
+
+.focus--mask {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 80px;
+  height: 100%;
+  top: 0;
+  left: 16.6px;
+  background: transparent;
+  -webkit-animation: mask-move 2s linear infinite alternate;
+          animation: mask-move 2s linear infinite alternate;
+}
+
+.focus--mask-inner {
+  padding: 0;
+  margin: 0;
+  width: auto !important;
+   -webkit-animation: mask-inner-move 2s linear infinite alternate;
+          animation: mask-inner-move 2s linear infinite alternate;
+}
