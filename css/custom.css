@@ -22,3 +22,10 @@
 	width: 100%;
 	top: 200px;
 }
+
+.lead{
+	font-family: Helvetica, 'Open Sans', sans-serif !important;
+	font-size:40px;
+	margin-top: 20px;
+	color:#FFFFFF;
+}
