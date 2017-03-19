@@ -41,30 +41,31 @@
 
 h2{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-	color: #3b6588;
+	color: #4E87A0;
 }
 
 h3{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-	color: #3b6588;
+	color: #4E87A0;
 }
 
 h4{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-	color: #3b6588;
+	color: #4E87A0;
 }
 
 .profileCaption{
 	font-weight: 500;
 	font-size: 3em;
 	margin-top: 100px;
-	color: #3b6588;
+	/*color: #3b6588;*/
+	color: #4E87A0;
 }
 
 .profileLead {
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 	font-size: 1.5em;
-	color: #727878;
+	color: #1E2336;
 }
 
 hr{
@@ -74,13 +75,14 @@ hr{
 }
 
 .normalParagraph {
-	color: #727878;
+	/*color: #727878;*/
+	color: #1E2336;
 	font-size: 18px;
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 
 span {
-	color: #727878;
+	color: #1E2336;
 }
 
 #profileImg{
@@ -88,25 +90,27 @@ span {
 }
 
 #myExperience{
-	background-color: #909faa;
+	/*background-color: #D7E4EC;*/
+	background-color: #B9D3DC;
 	margin-top: 100px;
 }
 
 .experienceLead{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 	font-size: 1.5em;
-	color: #093d4a;
+	color: #1B365E;
 }
 
 .employmentTitle{
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-	color: #093d4a;
-	font-weight: 700;
+	color: #1B365E;
+	font-weight: 600;
 }
 
 .darkParagraph{
 	font-size: 18px;
-	color: #093d4a;
+	/*color: #093d4a;*/
+	color: #1B365E;
 	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 
@@ -132,7 +136,7 @@ figcaption{
 	margin: 0px;
 	margin-left: 5%;
 	margin-right: 5%;
-	background: #909faa;
+	background: #B9D3DC;
 	color: #093d4a;
 	width: 90%;
 }
