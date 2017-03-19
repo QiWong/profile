@@ -174,30 +174,35 @@
 				<!-- Undergraduate Research -->
 				<div class="col-md-4">
 					<figure>
-						<a href="" class="thumbnail">
+						<a href="#researchModal" data-toggle="modal" class="thumbnail">
 							<img src="./images/paper.jpg" class="thumbnailImg" alt="Undergraduate Research">
 						</a>
-						<figcaption>
-							<h4>Undergraduate Research</h4>
-							<p class="darkParagraph">Research on mobile social network</p>
-						</figcaption>
+						<a href="#researchModal" data-toggle="modal">
+							<figcaption>
+								<h4>Undergraduate Research</h4>
+								<p class="darkParagraph">Research on mobile social network</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 				<!-- undergraduate project -->
 				<div class="col-md-4">
 					<figure>
-						<a href="" class="thumbnail">
+						<a href="#nebulaModal" data-toggle="modal" class="thumbnail">
 							<img src="./images/nebula.jpg" alt="Undergraduate Proect">
 						</a>
-						<figcaption>
-							<h4>Undergraduate Proect</h4>
-							<p class="darkParagraph">Wearable Headset &#38; Android Game</p>
-						</figcaption>
+						<a href="#nebulaModal" data-toggle="modal">
+							<figcaption>
+								<h4>Undergraduate Proect</h4>
+								<p class="darkParagraph">Wearable Headset &#38; Android Game</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
 
-			<!-- Modal -->
+			<!-- Modals -->
+			<!-- Internship Modal -->
   			<div class="modal fade" id="internshipModal" role="dialog">
     			<div class="modal-dialog">
     
@@ -205,10 +210,57 @@
 	      			<div class="modal-content">
 	        			<div class="modal-header">
 	          				<button type="button" class="close" data-dismiss="modal">&times;</button>
-	          				<h4 class="modal-title">Modal Header</h4>
+	          				<h3 class="modal-title">Internship Experience</h3>
 	        			</div>
 	        			<div class="modal-body">
-	          				<p>Some text in the modal.</p>
+	          				<p class="normalParagraph">I performed one-year internship at Intel Asia-Pacific Research &#38; Development Ltd. During internship, I was mainly involved in web development work and doing resports. We were working on providing web service for IT operations. Our web service can automatically process some repetitive system and application tasks, thus can be used to improve the efficiency of IT operation work. The following are some technical skills I've learnt from the internship. And thanks Intel for the wonderful year!</p>
+	          				<img class="imgsInModal"src="./images/skills.jpg">
+	        			</div>
+	        			<div class="modal-footer">
+	          				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        			</div>
+	      			</div>
+     
+    			</div>
+  			</div>
+
+  			<!-- Reseach Modal -->
+  			<div class="modal fade" id="researchModal" role="dialog">
+    			<div class="modal-dialog">
+    
+	      			<!-- Modal content-->
+	      			<div class="modal-content">
+	        			<div class="modal-header">
+	          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          				<h3 class="modal-title">Undergraduate Reseach</h3>
+	        			</div>
+	        			<div class="modal-body">
+	          				<p class="normalParagraph">During my undergraduate, I did theoretical research on opportunistic mobile social network under the supervision of <a href="http://cse.seu.edu.cn/PersonalPage/sfzhang/index.htm">Prof.Sanfeng Zhang</a>. We modeled message propagation process in opportunistic network, similar as the epidemic process of a particular disease, based on Markov Theory. Our work was published in IEEE WCNC 2016. Here is the link to the paper - <a href="http://ieeexplore.ieee.org/document/7565163/">Analytic latency model for message dissemination in opportunistic networks.</a></p>
+	          				<p class="normalParagraph">The following is a picture illustrating what is opportunistic network, by <a href="https://www.slideshare.net/mazlan1/trends-and-challenges-in-delay-tolerant-network-dtn-or-mobile-opportunistic-network-oppnet">Dr. Mazlan Abbas.</a></p>
+	          				<img src="./images/oppNet.jpg" id="oppNetImg">
+	        			</div>
+	        			<div class="modal-footer">
+	          				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        			</div>
+	      			</div>
+     
+    			</div>
+  			</div>
+
+  			 <!-- Undergraduate Project Modal -->
+  			<div class="modal fade" id="nebulaModal" role="dialog">
+    			<div class="modal-dialog">
+    
+	      			<!-- Modal content-->
+	      			<div class="modal-content">
+	        			<div class="modal-header">
+	          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          				<h3 class="modal-title">Undergraduate Project</h3>
+	        			</div>
+	        			<div class="modal-body">
+	          				<p class="normalParagraph">My friends and I developed this Android game - Nebula and a headset together in our junior year. We use gyroscope to detect head movement and TGAM Sensor to detect brainwave. Data is transmitted through Bluetooth to android device. The game itself is set in a starry sky. Users can draw a constellation and build their own galaxy. Here is a short introduction video and it's a little ... funny. :D</p>
+	          				<br>
+	          				<iframe width="560" height="315" src="https://www.youtube.com/embed/jPvpe9e-Pss?ecver=1" frameborder="0" allowfullscreen></iframe>
 	        			</div>
 	        			<div class="modal-footer">
 	          				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

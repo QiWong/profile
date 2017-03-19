@@ -189,3 +189,15 @@ figure:hover figcaption{
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
+
+.imgsInModal{
+	width: 40%;
+	position: relative;
+	left: 30%;
+}
+
+#oppNetImg{
+	width: 90%;
+	position: relative;
+	left: 5%;
+}
