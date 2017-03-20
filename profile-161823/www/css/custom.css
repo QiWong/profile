@@ -4,7 +4,7 @@
 }
 
 .captionDiv{
-	background: url('../images/personalPhoto2.jpg')no-repeat center center;
+	background: url('../images/personalPhoto3.jpg')no-repeat center center;
 	height: 800px;
 	background-attachment: fixed;
     background-position: center;
@@ -90,7 +90,6 @@ span {
 }
 
 #myExperience{
-	/*background-color: #D7E4EC;*/
 	background-color: #B9D3DC;
 	margin-top: 100px;
 }
@@ -174,9 +173,9 @@ figcaption {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.2s 0.5s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.2s 0.5s;
-	transition: transform 0.4s, opacity 0.2s 0.5s;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
 figcaption h4{
@@ -204,4 +203,27 @@ figure:hover figcaption{
 	width: 90%;
 	position: relative;
 	left: 5%;
+}
+
+#myContactInfo{
+	background-color: #B9D3DC;
+	margin-top: 100px;
+}
+
+.myEmail {
+	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 1em;
+	color: #1E2336;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.myEmail img{
+	width: 30px;
+}
+
+.copyRight {
+	font-size: 0.8em;
+	color: #1B365E;
 }
